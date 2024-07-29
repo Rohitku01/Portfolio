@@ -240,6 +240,7 @@ li a:hover:after{
         /* gap:3rem; */
         justify-content: space-between;
         align-items:right;
+        overflow:hidden;
         & img{
             width: 15rem;
             /* align-items:center; */
