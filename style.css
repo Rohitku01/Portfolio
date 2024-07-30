@@ -228,18 +228,17 @@ li a:hover:after{
     align-items:center;
 }
 
-.skill-section .container{
-    display: flex;
-    justify-content: space-between;
-    align-items:right;
-
-    /* & img{
-     width: 12rem;
-    } */
-
-    & .skill-img{
-        & i{
-            font-size:15rem;
+.skill-section {
+    /* height:100vh; */
+    & .container{
+        display: flex;
+        /* grid-template-columns: repeat(3, 1fr); */
+        /* gap:3rem; */
+        justify-content: space-between;
+        align-items:right;
+        & img{
+            width: 15rem;
+            /* align-items:center; */
         }
         & p{
             font-size:2rem;
