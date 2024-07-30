@@ -1,6 +1,6 @@
 Welcome to my personal portfolio repository! 🎨
 
-(UnderDEvelopment)
+(UnderDevelopment)
 
 Overview
 
