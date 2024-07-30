@@ -229,16 +229,19 @@ li a:hover:after{
 }
 
 .skill-section {
-    /* height:100vh; */
+
     & .container{
         display: flex;
         /* grid-template-columns: repeat(3, 1fr); */
         /* gap:3rem; */
         justify-content: space-between;
         align-items:right;
-        & img{
-            width: 15rem;
-            /* align-items:center; */
+        overflow:hidden;
+    }
+
+    & .skill-img{
+        & i{
+            font-size:15rem;
         }
         & p{
             font-size:2rem;
@@ -248,11 +251,8 @@ li a:hover:after{
 }
 
 .skill-section{
-    /* & img{
 
-    } */
-
-    img:hover{
+    & img:hover{
         transform: scale(1.1);
         box-shadow: 0 0 40px -5px rgba(0, 0, 0, 0.2)
     }
